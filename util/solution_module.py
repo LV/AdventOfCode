@@ -50,7 +50,7 @@ def _check_puzzle_input_and_download_if_necessary(puzzle: PuzzleID) -> None:
     
 
 
-def run_puzzle_solve(puzzle: PuzzleID) -> Any:
+def run_puzzle_solve(puzzle: PuzzleID) -> any:
     """Runs the Puzzle Solution's `solve()` function"""
 
     _check_if_puzzle_solution_exists(puzzle)
